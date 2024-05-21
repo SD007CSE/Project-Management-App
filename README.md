@@ -33,7 +33,7 @@ Welcome to the Project Management App repository! This application is designed t
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/project-management-app.git
+   git clone [https://github.com/SD007CSE/Project-Management-App.git]
    cd project-management-app
 2. **Add the .env file**:
 
