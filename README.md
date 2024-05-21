@@ -1,6 +1,8 @@
 # Project Management App
 
 Welcome to the Project Management App repository! This application is designed to streamline the management and tracking of projects within an organization, providing tailored access and functionalities for Admins, Employees, and Users.
+### Video Explanation Functionalities
+https://github.com/SD007CSE/Project-Management-App/assets/88923088/21594ae3-bbcd-4b2b-83b0-fa322f419f83
 
 ## Key Features
 
