@@ -106,10 +106,10 @@ export default function DelProj() {
 
     return (
         <div>
-            <div className="relative">
+            <div class="relative">
                 <Pane />
             </div>
-            <div style={{ height: 400, width: '82.8%', backgroundColor: "white" }} className="ml-[250px]">
+            <div style={{ height: 400, width: '82.8%', backgroundColor: "white" }} class="ml-[250px]">
                 <DataGrid
                     checkboxSelection
                     rows={projects}
@@ -125,7 +125,7 @@ export default function DelProj() {
                     pageSizeOptions={[5, 10]}
                 />
                 {selectedRows.length > 0 && (
-                    <button onClick={handleDelete} className="bg-red-500 text-white rounded-md px-4 py-1 mt-4 mx-3">
+                    <button onClick={handleDelete} class="bg-red-500 text-white rounded-md px-4 py-1 mt-4 mx-3">
                         Delete Selected
                     </button>
                 )}

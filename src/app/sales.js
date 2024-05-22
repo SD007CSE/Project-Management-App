@@ -1,9 +1,7 @@
 
 'use client'
-import Chart from 'chart.js/auto';
 import { useState, useEffect } from 'react';
 import { Line } from 'react-chartjs-2';
-import salesData from "./salesData.json";
 import { db } from "./config/firebase";
 import { collection, getDocs } from "firebase/firestore";
 

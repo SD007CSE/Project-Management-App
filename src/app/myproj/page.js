@@ -145,9 +145,9 @@ export default function Project() {
         <div>
             <Pane />
             <h1>Project Page</h1>
-            <span className="ml-[258px] my-2 font-medium font-mono text-slate-100" >Hi, {employeeName[0].fName} the below table shows you the projects that are allocated to you after progress with the project you</span>
-            <span className="ml-[228px] my-2 font-medium font-mono text-slate-100" >can change the project completion column for repective projects.</span>
-            <div style={{ height: 400, width: '82.8%', backgroundColor: "white" }} className="ml-[250px]">
+            <span class="ml-[258px] my-2 font-medium font-mono text-slate-100" >Hi, {employeeName[0].fName} the below table shows you the projects that are allocated to you after progress with the project you</span>
+            <span class="ml-[228px] my-2 font-medium font-mono text-slate-100" >can change the project completion column for repective projects.</span>
+            <div style={{ height: 400, width: '82.8%', backgroundColor: "white" }} class="ml-[250px]">
                 <DataGrid
                     rows={row}
                     columns={columns}
