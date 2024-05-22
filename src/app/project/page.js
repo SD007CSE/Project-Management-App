@@ -1,6 +1,6 @@
 "use client"
 
-import ProjectData from "../projectData.json"
+
 import { Bar } from 'react-chartjs-2';
 import { db } from "../config/firebase";
 import { collection, getDocs } from "firebase/firestore";
