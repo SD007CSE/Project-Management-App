@@ -78,7 +78,9 @@ export default function Boxes() {
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         </div>
                         <div class='py-1'>
-                            <Button variant="outlined" class='btn'>Delete Project</Button>
+                            <Button variant="outlined"onClick={()=>{
+                                router.push("/delproj")
+                            }} class='btn'>Delete Project</Button>
                         </div>
                     </div>
                 </Box>

@@ -48,7 +48,7 @@ export default function Openweather() {
 
 
     return (
-        <div className="flex flex-col m-3">
+        <div class="flex flex-col m-3">
         <div>
         {
                 loct

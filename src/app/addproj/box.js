@@ -111,7 +111,7 @@ export default function Boxes() {
 
                                     </MDBRow>
 
-                                    <div className="relative">
+                                    <div class="relative">
                                         <div class='py-1'>
                                             <Button variant="outlined" class='btn' onClick={() => handleSubmit()} >
                                             {isLoading && <span>Adding...</span>}
